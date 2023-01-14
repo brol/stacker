@@ -14,7 +14,6 @@ if (!defined('DC_RC_PATH')) {return;}
 
 class stackerBehaviors
 {
-
 	public static function coreBlogGetPosts($rs)
 	{
 		$rs->extend('rsExtPostStacker');
@@ -22,7 +21,6 @@ class stackerBehaviors
 
 	public static function displayPluginsPanel()
 	{
-
 		$stacker=dcCore::app()->stacker;
 		if (!$stacker->sorted) {
 			uasort($stacker->stack,array("dcStacker", "sort"));
@@ -122,8 +120,6 @@ class dcStacker
 
 	public function __construct()
 	{
-		$this->core =& dcCore::app();
-		$this->con =& $this->core->con;
 		$this->stack = array();
 		$this->sorted = false;
 	}

@@ -17,7 +17,7 @@ $this->registerModule(
     'Stacker',
     'Manages a bunch of transforming functions that can modify the entries text before display',
     'Jean-Christophe Dubacq, Franck Paul and contributors',
-    '0.6',
+    '0.6.1',
     [
         'requires'    => [['core', '2.24']],
         'permissions' => dcCore::app()->auth->makePermissions([
