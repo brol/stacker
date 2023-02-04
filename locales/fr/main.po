@@ -1,16 +1,16 @@
 # Language: Français
-# Module: stacker - 0.6
-# Date: 2023-01-09 22:25:59
+# Module: stacker - 0.6.1
+# Date: 2023-01-30 18:46:52
 # Author: Pierre Van Glabeke
 # Translated with translater 2022.12.26
 
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
-"Project-Id-Version: stacker 0.6\n"
+"Project-Id-Version: stacker 0.6.1\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-01-09T22:25:59+00:00\n"
-"Last-Translator: Pierre Van Glabeke\n"
+"PO-Revision-Date: 2023-01-30T18:46:52+00:00\n"
+"Last-Translator: brol\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,31 +24,34 @@ msgstr "Test remplaçant Dotclear par Dotcleår"
 msgid "Changes spacing for French punctuation"
 msgstr "Change l'espacement autour de la ponctuation française"
 
-#: class.stacker.php:39
+#: class.stacker.php:37
 msgid "Disabled filters:"
 msgstr "Filtres désactivés :"
 
-#: class.stacker.php:58
+#: class.stacker.php:56
 msgid "Origin"
 msgstr "Origine"
 
-#: class.stacker.php:59
+#: class.stacker.php:57
 msgid "Priority"
 msgstr "Priorité"
 
-#: class.stacker.php:60
+#: class.stacker.php:58
 msgid "Context"
 msgstr "Contexte"
 
-#: class.stacker.php:62
+#: class.stacker.php:60
 msgid "Function"
 msgstr "Fonction"
 
-#: class.stacker.php:91
+#: class.stacker.php:89
 msgid "Warning: disable with care only, it could disturb the normal functions of plugins using stacker."
 msgstr "Attention : désactivez avec attention, cela peut perturber le fonctionnement normal des plugins utilisant Stacker"
 
-#: class.stacker.php:94
+#: class.stacker.php:92
 msgid "change"
 msgstr "modifier"
+
+msgid "Manages a bunch of transforming functions that can modify the entries text before display"
+msgstr "Gérer un tas de fonctions de transformation qui peuvent modifier le texte des entrées avant l'affichage"
 
